@@ -1,0 +1,90 @@
+body{
+    background-image: url('/races/img/bg.jpg')!important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Titillium Web', sans-serif!important;       
+}
+
+
+
+.title-banner{
+    font-family: 'Russo One';
+}
+
+.subtitle{
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.cd-flex{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+}
+
+.dot-divider{
+    border-top-color: #e09900;
+    border-top-style: dotted;
+    border-top-width: 12px;
+}
+
+.card{
+    padding: 15px 20px;
+    max-width: 350px;
+    margin: 10px auto;
+    min-height: 400px;
+    box-shadow: 0 0 0 3px rgb(194, 109, 29) inset;
+    
+}
+
+.card-race {
+    border-radius: 0!important;
+    background: #ffffff47!important;
+}
+
+.card-race p, 
+.card-race span{
+    font-weight: 300;
+    color: white;
+}
+
+.card-race h3{
+    color: white;
+    font-weight: 600;
+}
+
+.row{
+    margin-bottom:30px; 
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .title-race{
+      font-family: 'Russo One';
+      text-shadow: 0em 0em 0.16em #ffffff;
+      margin: 40px 0  20px;
+  }
+  
+  button{
+      background: transparent;
+      border: transparent;
+  }
+  
+  .divider-min {
+          display: block;
+    margin: 60px auto;
+    border-width: 6px;
+    border-color: #feac47;
+    border-style: solid;
+    width: 10%;
+
+  }
